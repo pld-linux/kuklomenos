@@ -1,5 +1,6 @@
 # TODO:
 # - polish description and summary
+# - desktop file and pixmap
 Summary:	An abstract shoot-em-up with a strategical twist
 Name:		kuklomenos
 Version:	0.2.3.2
