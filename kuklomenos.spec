@@ -3,12 +3,12 @@
 # - desktop file and pixmap
 Summary:	An abstract shoot-em-up with a strategical twist
 Name:		kuklomenos
-Version:	0.2.3.2
+Version:	0.3.3.1
 Release:	1
 License:	GPL v3
 Group:		X11/Applications/Games
 Source0:	http://mbays.freeshell.org/kuklomenos/src/%{name}-%{version}.tar.gz
-# Source0-md5:	0cc4ec6d2b9819a2b434c8ebe0c685d3
+# Source0-md5:	d32f3cabe4c01141fca233146e3ffb60
 URL:		http://mbays.freeshell.org/kuklomenos/
 BuildRequires:	SDL-devel
 BuildRequires:	SDL_gfx-devel
@@ -41,3 +41,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/%{name}
 %dir %{_datadir}/%{name}
 %{_datadir}/%{name}/*.fnt
+%{_datadir}/%{name}/*.mod
